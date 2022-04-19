@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* --------- Ejercicio #1 --------- */
+
+
+.cont1 {
+    width: 450px;
+    height: 450px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.item1 {
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item1:nth-child(1) {
+    background-color: red;
+}
+
+.item1:nth-child(2) {
+    background-color: blue;
+}
+
+.item1:nth-child(3) {
+    background-color: green;
+}
+
+
+/* --------- Ejercicio #2 --------- */
+
+
+.cont2 {
+    width: 450px;
+    height: 450px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.item2 {
+    width: 150px;
+    height: 150px;
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item2:nth-child(1) {
+    background-color: red;
+}
+
+.item2:nth-child(2) {
+    background-color: blue;
+}
+
+.item2:nth-child(3) {
+    background-color: green;
+}
+
+
+/* --------- Ejercicio #3 --------- */
+
+
+.cont3 {
+    width: 95%;
+    height: 150px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid 2px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item3 {
+    width: 150px;
+    height: 100%;
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item3:nth-child(1) {
+    background-color: red;
+}
+
+.item3:nth-child(2) {
+    background-color: blue;
+}
+
+.item3:nth-child(3) {
+    background-color: green;
+}
